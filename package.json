@@ -1,0 +1,27 @@
+{
+  "name": "vue_components_49lt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "client": "npm run serve --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run serve\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juwin49/vue_components_49lt.git"
+  },
+  "author": "juwin49",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juwin49/vue_components_49lt/issues"
+  },
+  "homepage": "https://github.com/juwin49/vue_components_49lt#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
