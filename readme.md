@@ -3,12 +3,12 @@ node，vue-cli3搭建项目前后端连载
 -------
 启动node和vue-cli项目需要启动两个很麻烦，可以将前后端连载一次性启动和关闭，使用concurrently可以解决这个问题。
 
-*首先将vue-cli生成的项目放入node项目中取名client
+* 首先将vue-cli生成的项目放入node项目中取名client
 
-*在node项目根目录使用安装命令：
+* 在node项目根目录使用安装命令：
 `npm i concurrently -s`
 
-*安装完成后在node项目的package.json中进行以下配置:
+* 安装完成后在node项目的package.json中进行以下配置:
 
  ```
 "scripts": {

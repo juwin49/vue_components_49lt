@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
-import content from './views/content.vue'
-import sidebar from './views/sidebar.vue'
-import browview from './views/browview.vue'
+
+import Cnav from './views/Cnav.vue'
+import Browview from './views/Browview.vue'
+import Ccontent from './views/Ccontent.vue'
 
 
 Vue.use(Router)
@@ -16,23 +15,15 @@ export default new Router({
     {
       path: '/',
       redirect: '/components',
-      name: 'home',
-      component: Home
     },
     {
       path: '/components',
       components:
-      {default:content,sidebar:sidebar,browview:browview}
+      {default:Cnav,Ccontent:Ccontent}
     },
     {
       path: '/browview',
-      component:browview
-    },
-    {
-      path: '/about',
-      name: 'about',
-      components:
-      {default:About,sidebar:()=>import('./views/Home.vue')}
+      component:Browview
     }
   ]
 })
