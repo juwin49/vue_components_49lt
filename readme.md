@@ -30,3 +30,10 @@ node，vue-cli3搭建项目前后端连载
 
  * 配置完成后，启动项目用命令就可以将两个项目都启动起来:
  `npm run dev`
+
+
+------------
+
+VUE CLI 3 server默认配置所在目录：node_modules\@vue\cli-service\lib\commands\serve.js
+
+------------

@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Cnav from './views/Cnav.vue'
-import Browview from './views/Browview.vue'
-import Ccontent from './views/Ccontent.vue'
+import Cnav from '@/views/Cnav.vue'
+import Browview from '@/views/Browview.vue'
+import Ccontent from '@/views/Ccontent.vue'
+
+
+
 
 
 Vue.use(Router)

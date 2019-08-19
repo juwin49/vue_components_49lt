@@ -1,5 +1,5 @@
 <template>
-  <div>hello code{{msg}}</div>
+  <div class="codemsg">hello code{{msg}}</div>
 </template>
 
 <script>
@@ -10,3 +10,8 @@ export default {
   }
 }
 </script>
+<style>
+.codemsg{
+
+}
+</style>

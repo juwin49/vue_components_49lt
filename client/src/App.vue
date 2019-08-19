@@ -9,6 +9,7 @@
 
 <style>
  *{ margin: 0; padding: 0; }
+ * {user-select: none}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,6 +1,11 @@
 <template>
-  <div>hello browview</div>
+  <div class="viewstyle">hello browview</div>
 </template>
 
 <script>
 </script>
+<style>
+.viewstyle{
+  
+}
+</style>
